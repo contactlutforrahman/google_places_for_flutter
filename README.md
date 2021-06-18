@@ -1,6 +1,7 @@
 # [Google Places for Flutter](https://pub.dev/packages/google_places_for_flutter)
 
-A Flutter package which uses the Google Maps API to make a TextField that tries to autocomplete places as the user types, with simple smooth animations, providing a nice UI and UX. This will also provide great information about the user selected place, like the coordinates, the bounds to determine the zoom of the GoogleMap widget, and so on.
+A Flutter package which uses the Google Maps API to make a TextField that autocomplete places as the user types in.
+It also gives coordinates and more ...
 
 Extended [Google Maps for Flutter](https://pub.dev/packages/google_maps_flutter) plugin
 
@@ -9,7 +10,10 @@ Extended [Google Maps for Flutter](https://pub.dev/packages/google_maps_flutter)
 
 ## Installation
 
-``` flutter pub add google_places_for_flutter ```
+``` 
+flutter pub add google_places_for_flutter
+ 
+```
 
 or
 
@@ -19,6 +23,8 @@ dependencies:
   google_places_for_flutter: ^1.0.0
 
 ```
+
+## Usage
 
 ```dart
 
